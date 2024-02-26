@@ -2,14 +2,18 @@ project:
   type: website
 
 website:
-  title: "portfolio"
+  title: "Jackson Vanfleet-Brown"
   navbar:
+    left: 
+      - text: Home
+        href: index.qmd
+      - text: Thesis
+        href: thesis.qmd
     right:
-      - about.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/jackvfb
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jackson-vb-469b6824b/
 format:
   html:
     theme: cosmo

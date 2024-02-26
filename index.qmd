@@ -1,14 +1,17 @@
 ---
 title: "Jackson Vanfleet-Brown"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
-page-layout: full
-title-block-banner: true
+image: images/jvb.jpg
+about:
+  template: jolla
+  image-width: 20em
+  image-shape: round
+  links: 
+    - icon: github
+      text: GitHub
+      href: https://github.com/jackvfb/
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jackson-vb-469b6824b/
 ---
 
-
+Hi, I'm Jackson. I like science.
