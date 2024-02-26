@@ -1,5 +1,5 @@
 ---
-title: "portfolio"
+title: "Jackson Vanfleet-Brown"
 listing:
   contents: posts
   sort: "date desc"
