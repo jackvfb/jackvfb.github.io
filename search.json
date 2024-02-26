@@ -1,17 +1,17 @@
 [
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "thesis.html",
+    "href": "thesis.html",
+    "title": "Thesis",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Introduction to my thesis project\n\n\n\n\n\n\nintro\n\n\n\n\n\n\n\n\n\nFeb 25, 2024\n\n\nJackson Vanfleet-Brown\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Jackson Vanfleet-Brown",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nFeb 25, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 22, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Hi, I’m Jackson. I like science."
   },
   {
     "objectID": "about.html",
@@ -21,10 +21,59 @@
     "text": "About this blog"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "thesis/background/index.html",
+    "href": "thesis/background/index.html",
+    "title": "Introduction to my thesis project",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "Narrowband high-frequency (NBHF) clicks are produced by four species in the California Current Ecosystem\n\nP. dalli (Dall’s porpoise)\nP. phocoena (harbor porpoise)\nK. sima (dwarf sperm whale)*\nK. breviceps (pygmy sperm whale)*\n\n\n*cryptic species\n\n\n\n\nADRIFT survey data are processed to detect NBHF clicks but no further steps are taken to classify to species\nProblem because: surveys are extensive and could be used to estimate population abundance of cryptic Kogia species\n\n\n\n\nA map of tracks of drifters deployed 2016-2022\n\n\n\n\n\n\nClassifies groups of clicks and/or other types of vocalizations (events) using two stages:\n\nEmploys one or more call classifiers at the first stage\nAt second stage, uses distributions of call classification probabilities, in addition to other event-level variables, to classify events\n\n\n\n\n\n\nTrain a BANTER model to classify NBHF echolocation clicks in the California Current System\n\nUse groundtruth recordings to define classes for Dall’s porpoise and harbor porpoise\nUse drifter recordings from Baja to define Kogia class\n\n\n\n\n\nA randomForest classification model was trained to discriminate between clusters of NBHF clicks in the California Current (Griffiths et al. 2020)\nGroundtruth recordings of Dall’s porpoise had a strong affinity to one cluster\n\n\n\n\n\nTo what extent is ambiguity reduced by:\n\nclassifying events as opposed to individual clicks\nusing a supervised approach to training the model"
+  },
+  {
+    "objectID": "thesis/background/index.html#nbhf-odontocetes",
+    "href": "thesis/background/index.html#nbhf-odontocetes",
+    "title": "Introduction to my thesis project",
+    "section": "",
+    "text": "Narrowband high-frequency (NBHF) clicks are produced by four species in the California Current Ecosystem\n\nP. dalli (Dall’s porpoise)\nP. phocoena (harbor porpoise)\nK. sima (dwarf sperm whale)*\nK. breviceps (pygmy sperm whale)*\n\n\n*cryptic species"
+  },
+  {
+    "objectID": "thesis/background/index.html#adrift-survey",
+    "href": "thesis/background/index.html#adrift-survey",
+    "title": "Introduction to my thesis project",
+    "section": "",
+    "text": "ADRIFT survey data are processed to detect NBHF clicks but no further steps are taken to classify to species\nProblem because: surveys are extensive and could be used to estimate population abundance of cryptic Kogia species\n\n\n\n\nA map of tracks of drifters deployed 2016-2022"
+  },
+  {
+    "objectID": "thesis/background/index.html#banter-model",
+    "href": "thesis/background/index.html#banter-model",
+    "title": "Introduction to my thesis project",
+    "section": "",
+    "text": "Classifies groups of clicks and/or other types of vocalizations (events) using two stages:\n\nEmploys one or more call classifiers at the first stage\nAt second stage, uses distributions of call classification probabilities, in addition to other event-level variables, to classify events"
+  },
+  {
+    "objectID": "thesis/background/index.html#objective",
+    "href": "thesis/background/index.html#objective",
+    "title": "Introduction to my thesis project",
+    "section": "",
+    "text": "Train a BANTER model to classify NBHF echolocation clicks in the California Current System\n\nUse groundtruth recordings to define classes for Dall’s porpoise and harbor porpoise\nUse drifter recordings from Baja to define Kogia class\n\n\n\n\n\nA randomForest classification model was trained to discriminate between clusters of NBHF clicks in the California Current (Griffiths et al. 2020)\nGroundtruth recordings of Dall’s porpoise had a strong affinity to one cluster\n\n\n\n\n\nTo what extent is ambiguity reduced by:\n\nclassifying events as opposed to individual clicks\nusing a supervised approach to training the model"
+  },
+  {
+    "objectID": "thesis/background/index.html#define-events",
+    "href": "thesis/background/index.html#define-events",
+    "title": "Introduction to my thesis project",
+    "section": "Define Events",
+    "text": "Define Events\nFor recordings with known species classification, PAMguard databases are created and events are constructed using one of two methods:\n\nManual\n\nClick detections were reviewed referencing features such as bearing, wigner plot, and spectrum.\nTime intervals containing true clicks were designated as events with no attempt to exclude false positives.\n\n\n\nMTC\n\nPAMguard’s default harbor porpoise template was used in the MTC module to assign scores to all clicks (higher score means better match)\nAn algorithm with three parameters (threshold, min clicks per event, min seperation between events) then constructed events.\nAnalyst reviewed to identify events containing real clicks.\n\nQuestion: How do the methods compare to one another?"
+  },
+  {
+    "objectID": "thesis/background/index.html#extract-click-features",
+    "href": "thesis/background/index.html#extract-click-features",
+    "title": "Introduction to my thesis project",
+    "section": "Extract click features",
+    "text": "Extract click features\n\nEvents processed using PAMpal to extract click features with a bandpass filter 100-160 kHz\nfalse positives removed by applying filters to remove\n\nduration &gt; .02 s\n3dB BW &gt; 4kHz\n\nClick channel with the lesser noiseLevel chosen, if applicable.\n\nQuestion: should other steps be taken to filter clicks?"
+  },
+  {
+    "objectID": "thesis/background/index.html#train-model",
+    "href": "thesis/background/index.html#train-model",
+    "title": "Introduction to my thesis project",
+    "section": "Train model",
+    "text": "Train model\n\nntree=1000 for both stages of the model\nsample size left to default"
   }
 ]

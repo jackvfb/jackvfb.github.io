@@ -1,9 +1,8 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/thesis.html",
     "items": [
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/thesis/background/index.html"
     ]
   }
 ]
