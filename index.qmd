@@ -11,7 +11,7 @@ about:
       href: https://github.com/jackvfb/
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/jackson-vb-469b6824b/
+      href: https://www.linkedin.com/in/jvfb/
 ---
 
 Hi, I'm Jackson. I like science.
