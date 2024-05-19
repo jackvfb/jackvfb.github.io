@@ -12,8 +12,6 @@ website:
     right:
       - icon: github
         href: https://github.com/jackvfb
-      - icon: linkedin
-        href: https://www.linkedin.com/in/jvfb
 format:
   html:
     theme: cosmo
