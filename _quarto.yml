@@ -9,13 +9,17 @@ website:
         href: index.qmd
       - text: Thesis
         href: thesis.qmd
+      - text: CV
+        href: cv.qmd
     right:
       - icon: github
         href: https://github.com/jackvfb
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jvfb/
 format:
   html:
     theme: cosmo
-    css: styles.css
+    toc: true
 
 
 
