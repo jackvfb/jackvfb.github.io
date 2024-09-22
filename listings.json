@@ -1,8 +1,15 @@
 [
   {
-    "listing": "/thesis.html",
+    "listing": "/writing.html",
     "items": [
-      "/thesis/background/index.html"
+      "/writing/bootcamp/bootcamp.html"
+    ]
+  },
+  {
+    "listing": "/graphics.html",
+    "items": [
+      "/graphics/background/index.html",
+      "/graphics/fara50/index.html"
     ]
   }
 ]

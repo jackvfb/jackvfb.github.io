@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Jackson Vanfleet-Brown - CV – Jackson Vanfleet-Brown</title>
+<title>Writing samples – Jackson Vanfleet-Brown</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -66,7 +68,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-subtitle','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -74,7 +134,7 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -97,11 +157,11 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Graphic design</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./writing.html"> 
+    <a class="nav-link active" href="./writing.html" aria-current="page"> 
 <span class="menu-text">Writing</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./cv.html" aria-current="page"> 
+    <a class="nav-link" href="./cv.html"> 
 <span class="menu-text">Resume</span></a>
   </li>  
 </ul>
@@ -124,121 +184,101 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Writing samples</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul class="collapse">
-  <li><a href="#experience" id="toc-experience" class="nav-link active" data-scroll-target="#experience">Experience</a></li>
-  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
-  <li><a href="#awards" id="toc-awards" class="nav-link" data-scroll-target="#awards">Awards</a></li>
-  <li><a href="#training-and-qualifications" id="toc-training-and-qualifications" class="nav-link" data-scroll-target="#training-and-qualifications">Training and Qualifications</a></li>
-  </ul>
-</nav>
-    </div>
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="creative">creative <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Jackson Vanfleet-Brown - CV</h1>
-</div>
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
+
+<p>Here is a sampling of writing that I have done over the years, separated into categories of technical versus creative writing. As you will see I have an ear for the language and a mastery of the pen developed over many years of writing-intensive education in the liberal arts.</p>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Title
+        </option>
+     </select>
   </div>
-  
-
-
-</header>
-
-
-<p>I am a new student with an interest in data science. I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.</p>
-<section id="experience" class="level2">
-<h2 class="anchored" data-anchor-id="experience">Experience</h2>
-<section id="research-intern" class="level3">
-<h3 class="anchored" data-anchor-id="research-intern">Research Intern</h3>
-<p><a href="https://sites.google.com/edu.haifa.ac.il/anl/anl">Underwater Acoustic &amp; Navigation Lab</a>, University of Haifa, Israel <span style="float: right;">2024</span></p>
-<ul>
-<li>6+ years as a research technician serving world-class scientists and engineers across many disciplines. Experienced mariner.</li>
-</ul>
-</section>
-<section id="environmental-diplomacy-intern" class="level3">
-<h3 class="anchored" data-anchor-id="environmental-diplomacy-intern">Environmental diplomacy intern</h3>
-<p><a href="https://arava.org/">Arava Institute for Environmental Studies</a>, Ketura, Israel <span style="float: right;">2022</span></p>
-<ul>
-<li>QC’ed and installed an autonomous water quality monitoring system at West Bank village.</li>
-<li>With minimal training, contributed meaningfully to an ambitious humanitarian project led by US tech startup and international researchers.</li>
-</ul>
-</section>
-<section id="american-samoa-station-chief" class="level3">
-<h3 class="anchored" data-anchor-id="american-samoa-station-chief">American Samoa Station Chief</h3>
-<p>Global Monitoring Laboratory, National Oceanic and Atmospheric Administration (NOAA) <span style="float: right;">2020 - 2021</span></p>
-<ul>
-<li>Learned best mechanical and electrical practices for servicing sophisticated instrument systems while in training at NOAA headquarters in Boulder, Colorado.</li>
-<li>While on-station in American Samoa, a remote Pacific island, I increased data quality and output through excellent management of two locally-based staff.</li>
-</ul>
-</section>
-<section id="junior-bridge-watch-officer" class="level3">
-<h3 class="anchored" data-anchor-id="junior-bridge-watch-officer">Junior bridge watch officer</h3>
-<p>NOAA Ship Fairweather, Ketchikan, Alaska <span style="float: right;">2017 - 2020</span></p>
-<ul>
-<li>Led navigational watches aboard 230-ft hydrographic survey vessel.</li>
-<li>Valued member of ship’s command due to breadth of qualifications:
-<ul>
-<li>Primary voyage planner for coastal passages from San Diego to the Arctic.</li>
-<li>Coxswain of 28-ft small boats.</li>
-<li>Multibeam sonar operator.</li>
-</ul></li>
-</ul>
-</section>
-</section>
-<section id="education" class="level2">
-<h2 class="anchored" data-anchor-id="education">Education</h2>
-<section id="m.s.-marine-science" class="level3">
-<h3 class="anchored" data-anchor-id="m.s.-marine-science">M.S. Marine Science</h3>
-<p>Estuary and Ocean Science Center, San Francisco State University <span style="float: right;">2022-2024</span></p>
-<ul>
-<li>For thesis research, developed machine learning models to classify dolphin species in passive acoustic recordings.</li>
-<li>Used operational expertise to assist with projects outside my primary research area:
-<ul>
-<li>Deployed scientific moorings offshore central California.</li>
-<li>Piloted UAV in San Francisco Bay to test new vessel tracking software.</li>
-<li>Trailered and coxswained 19-ft boat with two crew sampling zooplankton in San Francisco Estuary.</li>
-</ul></li>
-</ul>
-</section>
-<section id="b.a.-geology" class="level3">
-<h3 class="anchored" data-anchor-id="b.a.-geology">B.A. Geology</h3>
-<p>Carleton College, Northfield, MN, USA <span style="float: right;">2011-2015</span></p>
-</section>
-</section>
-<section id="awards" class="level2">
-<h2 class="anchored" data-anchor-id="awards">Awards</h2>
-<p><strong>NOAA Corps Achievement Medal (2019 and 2021)</strong></p>
-<p>Awarded on two occasions by different supervisors for notably positive impact on research operations – aboard NOAA Ship Fairweather as well as at the NOAA atmospheric observatory in American Samoa.</p>
-<p><strong>Distinction in Geology (2015)</strong></p>
-<p>Awarded by the Carleton College Geology faculty for an exceptional oral presentation of my senior thesis project.</p>
-</section>
-<section id="training-and-qualifications" class="level2">
-<h2 class="anchored" data-anchor-id="training-and-qualifications">Training and Qualifications</h2>
-<p>FAA UAV Remote Pilot (issued 2023)</p>
-<p>USCG Master 100 Ton Inland (issued 2023, expires 2028)</p>
-<p>Motor Boat Operator (2022) Scientific Boating Safety Association</p>
-<p>NOAA Ship Fairweather: Officer of the deck, small boat coxswain, hydrographer-in-charge (2018-2019)</p>
-
-
-</section>
-
-</main> <!-- /main -->
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+<th>
+Subtitle
+</th>
+<th>
+Description
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="creative" data-listing-date-sort="1516485600000" data-listing-file-modified-sort="1727018660853" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1206" data-listing-title-sort="Boot Camp Missive" data-listing-filename-sort="bootcamp.qmd">
+<td>
+<span class="listing-date">Jan 21, 2018</span>
+</td>
+<td>
+<a href="./writing/bootcamp/bootcamp.html" class="title listing-title">Boot Camp Missive</a>
+</td>
+<td>
+<span class="listing-subtitle">A review of my NOAA Corps Indoctrination</span>
+</td>
+<td>
+<span class="listing-description">A missive to friends and family upon completion of NOAA Officer basic training</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
