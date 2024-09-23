@@ -7,19 +7,23 @@ website:
     left: 
       - text: Home
         href: index.qmd
-      - text: Thesis
-        href: thesis.qmd
-      - text: CV
+      - text: Graphic design
+        href: graphics.qmd
+      - text: Writing
+        href: writing.qmd
+      - text: Resume
         href: cv.qmd
     right:
       - icon: github
         href: https://github.com/jackvfb
       - icon: linkedin
         href: https://www.linkedin.com/in/jvfb/
+  page-footer:  "Copyright 2024, Jackson Vanfleet-Brown. All rights reserved."
+
 format:
   html:
-    theme: cosmo
+    theme: yeti
     toc: true
-
+    css: styles.css
 
 

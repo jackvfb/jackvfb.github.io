@@ -1,59 +1,53 @@
 ---
 title: "Jackson Vanfleet-Brown - CV"
-editor: visual
+toc-depth: 2
 ---
 
-## Overview
+I am a new student with an interest in data science. I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.
 
-**Currently:** Intern at the [Underwater Acoustic & Navigation Lab](https://sites.google.com/edu.haifa.ac.il/anl/anl), University of Haifa, Israel. **Previously:** 6+ years as a research technician serving world-class scientists and engineers across many disciplines. Experienced mariner.
 
 ## Experience
 
-**Environmental diplomacy intern (2022)**
+### Research Intern
+[Underwater Acoustic & Navigation Lab](https://sites.google.com/edu.haifa.ac.il/anl/anl), University of Haifa, Israel [2024]{style="float: right;"}
 
-Arava Institute for Environmental Studies, Ketura, Israel
+- 6+ years as a research technician serving world-class scientists and engineers across many disciplines. Experienced mariner.
 
-QC'ed and installed an autonomous water quality monitoring system at West Bank village.
 
-With minimal training, contributed meaningfully to an ambitious humanitarian project led by US tech startup and international researchers.
+### Environmental diplomacy intern 
+[Arava Institute for Environmental Studies](https://arava.org/), Ketura, Israel [2022]{style="float: right;"}
 
-**American Samoa Station Chief (2020 - 2021)**
+- QC'ed and installed an autonomous water quality monitoring system at West Bank village.
+- With minimal training, contributed meaningfully to an ambitious humanitarian project led by US tech startup and international researchers.
 
-Global Monitoring Laboratory, National Oceanic and Atmospheric Administration (NOAA)
+### American Samoa Station Chief 
+Global Monitoring Laboratory, National Oceanic and Atmospheric Administration (NOAA) [2020 - 2021]{style="float: right;"}
 
-Learned best mechanical and electrical practices for servicing sophisticated instrument systems while in training at NOAA headquarters in Boulder, Colorado.
+- Learned best mechanical and electrical practices for servicing sophisticated instrument systems while in training at NOAA headquarters in Boulder, Colorado.
+- While on-station in American Samoa, a remote Pacific island, I increased data quality and output through excellent management of two locally-based staff.
 
-While on-station in American Samoa, a remote Pacific island, I increased data quality and output through excellent management of two locally-based staff.
+### Junior bridge watch officer 
+NOAA Ship Fairweather, Ketchikan, Alaska [2017 - 2020]{style="float: right;"}
 
-**Junior bridge watch officer (2017 - 2020)**
-
-NOAA Ship Fairweather, Ketchikan, Alaska
-
-Led navigational watches aboard 230-ft hydrographic survey vessel.
-
-Valued member of ship’s command due to breadth of qualifications:
-
--   Primary voyage planner for coastal passages from San Diego to the Arctic.
--   Coxswain of 28-ft small boats.
--   Multibeam sonar operator.
+- Led navigational watches aboard 230-ft hydrographic survey vessel.
+- Valued member of ship’s command due to breadth of qualifications:
+    -   Primary voyage planner for coastal passages from San Diego to the Arctic.
+    -   Coxswain of 28-ft small boats.
+    -   Multibeam sonar operator.
 
 ## Education
 
-**M.S., Marine Science (2022-2024)**
+### M.S. Marine Science
+Estuary and Ocean Science Center, San Francisco State University [2022-2024]{style="float: right;"}
 
-Estuary and Ocean Science Center, San Francisco State University, San Francisco, CA, USA
+- For thesis research, developed machine learning models to classify dolphin species in passive acoustic recordings.
+- Used operational expertise to assist with projects outside my primary research area:
+    -   Deployed scientific moorings offshore central California.
+    -   Piloted UAV in San Francisco Bay to test new vessel tracking software.
+    -   Trailered and coxswained 19-ft boat with two crew sampling zooplankton in San Francisco Estuary.
 
-For thesis research, developed machine learning models to classify dolphin species in passive acoustic recordings.
-
-Used operational expertise to assist with projects outside my primary research area:
-
--   Deployed scientific moorings offshore central California.
--   Piloted UAV in San Francisco Bay to test new vessel tracking software.
--   Trailered and coxswained 19-ft boat with two crew sampling zooplankton in San Francisco Estuary.
-
-**B.A., Geology (2011-2015)**
-
-Carleton College, Northfield, MN, USA
+### B.A. Geology
+Carleton College, Northfield, MN, USA [2011-2015]{style="float: right;"}
 
 ## Awards
 
