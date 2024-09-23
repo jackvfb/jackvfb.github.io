@@ -1,0 +1,11 @@
+---
+title: "Fairweather & Ranier 50th Anniversary"
+image: thumbnail.jpg
+date: "2017-01-01"
+---
+
+<iframe 
+  width="800" 
+  height="800" 
+  src="Brochure_Final.pdf">
+</iframe>

@@ -1,0 +1,13 @@
+---
+title: "Writing samples"
+listing:
+  contents: writing
+  sort: "date desc"
+  type: table
+  fields: [date, title, subtitle, description]
+  categories: true
+page-layout: full
+title-block-banner: true
+---
+
+Here is a sampling of writing that I have done over the years, separated into categories of technical versus creative writing. As you will see I have an ear for the language and a mastery of the pen developed over many years of writing-intensive education in the liberal arts.

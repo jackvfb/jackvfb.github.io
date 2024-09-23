@@ -1,0 +1,18 @@
+---
+title: "Graphic design portfolio"
+listing:
+  contents: graphics
+  sort: "date desc"
+  type: grid
+  fields: [image, date, title]
+  image-height: 200px
+page-layout: full
+toc: false
+title-block-banner: true
+---
+
+## Graphic Design
+
+I became interested in graphic design as a college student, influenced by my early childhood education's emphasis on visual arts. As someone who was naturally inclined towards science, I think I liked the precision associated with computer assisted graphic design, and also applying those challenges towards understanding and demystifying science.
+
+These are some examples of my graphic design work.
