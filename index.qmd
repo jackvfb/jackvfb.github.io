@@ -1,10 +1,11 @@
 ---
 title: "Jackson Vanfleet-Brown"
-image: images/jvb.jpg
+subtitle: "Science technician and data analyst"
+image: jvb.jpg
 about:
   template: trestles
   image-width: 20em
-  image-shape: round
+  image-shape: rectangle
   links: 
     - icon: github
       text: GitHub
@@ -14,4 +15,10 @@ about:
       href: https://www.linkedin.com/in/jvfb/
 ---
 
-I am a new student with an interest in data science. I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.
+I have a transdisciplinary research background rich with experience in leading operations as well as analysing data and communicating results to diverse audiences.
+
+My experience includes success in [operational leadership roles](cv.qmd), as a navigation officer aboard a hydrographic survey ship, and as the chief of an atmospheric observatory.
+
+And I also have a graduate level education in the natural sciences honing my [data analysis and communicating results](graphics.qmd). I am currently most enthusiastic about using open source tools like R, Quarto, and GitHub to interface with the global research community, publish the results, and propel forward driven by the boost of AI.
+
+Thanks for visiting! 👋

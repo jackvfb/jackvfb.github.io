@@ -8,25 +8,27 @@ I am a new student with an interest in data science. I am a new student with an 
 
 ## Experience
 
-### Research Intern
+### Research operations
+
+#### Research Intern
 [Underwater Acoustic & Navigation Lab](https://sites.google.com/edu.haifa.ac.il/anl/anl), University of Haifa, Israel [2024]{style="float: right;"}
 
 - 6+ years as a research technician serving world-class scientists and engineers across many disciplines. Experienced mariner.
 
 
-### Environmental diplomacy intern 
+#### Environmental diplomacy intern 
 [Arava Institute for Environmental Studies](https://arava.org/), Ketura, Israel [2022]{style="float: right;"}
 
 - QC'ed and installed an autonomous water quality monitoring system at West Bank village.
 - With minimal training, contributed meaningfully to an ambitious humanitarian project led by US tech startup and international researchers.
 
-### American Samoa Station Chief 
+#### American Samoa Station Chief 
 Global Monitoring Laboratory, National Oceanic and Atmospheric Administration (NOAA) [2020 - 2021]{style="float: right;"}
 
 - Learned best mechanical and electrical practices for servicing sophisticated instrument systems while in training at NOAA headquarters in Boulder, Colorado.
 - While on-station in American Samoa, a remote Pacific island, I increased data quality and output through excellent management of two locally-based staff.
 
-### Junior bridge watch officer 
+#### Junior bridge watch officer 
 NOAA Ship Fairweather, Ketchikan, Alaska [2017 - 2020]{style="float: right;"}
 
 - Led navigational watches aboard 230-ft hydrographic survey vessel.

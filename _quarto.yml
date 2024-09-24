@@ -1,24 +1,24 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Jackson Vanfleet-Brown"
   navbar:
     left: 
-      - text: Home
-        href: index.qmd
-      - text: Graphic design
-        href: graphics.qmd
-      - text: Writing
-        href: writing.qmd
-      - text: Resume
+      - text: Experience
         href: cv.qmd
+      - text: Past work
+        href: graphics.qmd
+      - text: Posts
+        href: writing.qmd
     right:
       - icon: github
         href: https://github.com/jackvfb
       - icon: linkedin
         href: https://www.linkedin.com/in/jvfb/
   page-footer:  "Copyright 2024, Jackson Vanfleet-Brown. All rights reserved."
+  favicon: favicon_j.png
 
 format:
   html:
