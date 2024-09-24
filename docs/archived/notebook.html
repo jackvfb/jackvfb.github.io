@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Jackson Vanfleet-Brown">
+<meta name="dcterms.date" content="2024-09-22">
 
-<title>Jackson Vanfleet-Brown - CV – Jackson Vanfleet-Brown</title>
+<title>Using ozonesondes to observe the Antarctic ozone hole</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,132 +25,78 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./favicon_j.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
-  "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+<script src="notebook_files/libs/clipboard/clipboard.min.js"></script>
+<script src="notebook_files/libs/quarto-html/quarto.js"></script>
+<script src="notebook_files/libs/quarto-html/popper.min.js"></script>
+<script src="notebook_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="notebook_files/libs/quarto-html/anchor.min.js"></script>
+<link href="notebook_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="notebook_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="notebook_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="notebook_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="notebook_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
   }
-}</script>
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
-
-<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="fullcontent">
 
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Jackson Vanfleet-Brown</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./cv.html" aria-current="page"> 
-<span class="menu-text">Experience</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./portfolio.html"> 
-<span class="menu-text">Portfolio</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./posts.html"> 
-<span class="menu-text">Posts</span></a>
-  </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/jackvfb"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/jvfb/"> <i class="bi bi-linkedin" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
-<!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul class="collapse">
-  <li><a href="#experience" id="toc-experience" class="nav-link active" data-scroll-target="#experience">Experience</a></li>
-  <li><a href="#education" id="toc-education" class="nav-link" data-scroll-target="#education">Education</a></li>
-  <li><a href="#awards" id="toc-awards" class="nav-link" data-scroll-target="#awards">Awards</a></li>
-  <li><a href="#training-and-qualifications" id="toc-training-and-qualifications" class="nav-link" data-scroll-target="#training-and-qualifications">Training and Qualifications</a></li>
-  </ul>
-</nav>
-    </div>
-<!-- main -->
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Jackson Vanfleet-Brown - CV</h1>
+<h1 class="title">Using ozonesondes to observe the Antarctic ozone hole</h1>
+<p class="subtitle lead">A reproducible data analysis project</p>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jackson Vanfleet-Brown </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 22, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -158,87 +106,115 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>I am a new student with an interest in data science. I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.</p>
-<section id="experience" class="level2">
-<h2 class="anchored" data-anchor-id="experience">Experience</h2>
-<section id="research-operations" class="level3">
-<h3 class="anchored" data-anchor-id="research-operations">Research operations</h3>
-<section id="research-intern" class="level4">
-<h4 class="anchored" data-anchor-id="research-intern">Research Intern</h4>
-<p><a href="https://sites.google.com/edu.haifa.ac.il/anl/anl">Underwater Acoustic &amp; Navigation Lab</a>, University of Haifa, Israel <span style="float: right;">2024</span></p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>The <strong>ozone layer</strong> is a component of our atmosphere shielding the surface of our planet from harmful ultraviolet radiation. Due to chemicals called <em>CFCs</em> being released in the atmosphere, we began to observe a global weakening of the ozone layer which posed a radical threat to public health.</p>
+<p>Over the course of just a few decades, ozone depletion had become so severe it began causing the <strong>Antarctic ozone hole,</strong> a region in which the ozone layer was utterly destroyed for several months of the year. The phenomenon was fortunately limited to the spring in Anarctica – but it represented what was bound to occur everywhere throughout the entire year. This helped spark the international movement to ban these chemicals and reverse the destruction of the ozone layer.</p>
+<p>Amundsen-Scott South Pole Station is used as a launch site for for instruments called <strong>ozonesondes</strong> which measure ozone concentrations at various altitudes in the atmosphere. From the <strong>vertical ozone profiles</strong> that they return, we observe the formation and subsequent closure of the Antarctic ozone hole each year.</p>
+</section>
+<section id="objective" class="level2">
+<h2 class="anchored" data-anchor-id="objective">Objective</h2>
+<p>Use ozonesonde vertical profiles to recreate <a href="#fig-ozmix2022" class="quarto-xref">Figure&nbsp;1</a>, depicting a cross section of the atmosphere over South Pole Station over the course of a year.</p>
+<div id="fig-ozmix2022" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ozmix2022-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="ozmix2022.png" class="img-fluid figure-img" style="width:70.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ozmix2022-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: A cross section of the atmosphere over South Pole Station in 2022, clearly showing the ozone hole from ~ 14 - 22 km altitude during the months of September - November. Created by NOAA GML Ozone and Water Vapor research group and originally published <a href="https://gml.noaa.gov/dv/spo_oz/contours/index.php">here.</a>
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="methods" class="level2">
+<h2 class="anchored" data-anchor-id="methods">Methods</h2>
+<p>I elected to use <strong>nearest neighbors</strong> to estimate ozone concentration as explained by year, Julian date, and altitude. This model was necessary because, as shown in <a href="#fig-launches-thru-time" class="quarto-xref">Figure&nbsp;2</a>, ozonesonde observations alone were too dispersed to meet the objective.</p>
+<div class="cell" data-fig-caption="Ozonesonde observations in 2022 from South Pole, Antarctica.">
+<div class="cell-output-display">
+<div id="fig-launches-thru-time" class="quarto-float quarto-figure quarto-figure-center anchored" width="672">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-launches-thru-time-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="notebook_files/figure-html/fig-launches-thru-time-1.png" id="fig-launches-thru-time" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-launches-thru-time-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>The choice of nearest neighbors was based on these considerations:</p>
 <ul>
-<li>6+ years as a research technician serving world-class scientists and engineers across many disciplines. Experienced mariner.</li>
+<li>Since there were few predictors, distance calculations between neighbors were likely to accurately reveal close relationships.</li>
+<li>The launches occur with regularity throughout the year, so for most or all estimates, there were likely to be near neighbors.</li>
+<li>Intuitively, for visualization purposes, it seemed to be a simple, straightforward, and potentially effective approach.</li>
+</ul>
+<section id="traintest-split" class="level4">
+<h4 class="anchored" data-anchor-id="traintest-split">Train/Test Split</h4>
+<p>The model was fit on the entire ozonesonde record up to 2021 and tested on the records from 2023-onwards. The final fit was done on the full data set.</p>
+</section>
+<section id="predictors" class="level4">
+<h4 class="anchored" data-anchor-id="predictors">Predictors</h4>
+<p>Minimal predictors were chosen and the choices were based on these considerations:</p>
+<ul>
+<li>Year: Important to associate observations that were nearby in time. Also important because of gradual ozone recovery, which is a long-term gradual shift brought about by the expiration of the CFCs that cause ozone layer destruction</li>
+<li>Julian date: Also necessary to identify nearby ozonesonde observations. Also reveals seasonality of the ozone hole.</li>
+<li>Altitude: A first-order estimate of ozone concentration, as the atmosphere has a stratified structure and the ozone layer is known to occur at a certain altitude range.</li>
 </ul>
 </section>
-<section id="environmental-diplomacy-intern" class="level4">
-<h4 class="anchored" data-anchor-id="environmental-diplomacy-intern">Environmental diplomacy intern</h4>
-<p><a href="https://arava.org/">Arava Institute for Environmental Studies</a>, Ketura, Israel <span style="float: right;">2022</span></p>
-<ul>
-<li>QC’ed and installed an autonomous water quality monitoring system at West Bank village.</li>
-<li>With minimal training, contributed meaningfully to an ambitious humanitarian project led by US tech startup and international researchers.</li>
-</ul>
+<section id="hyperparameter-tuning" class="level4">
+<h4 class="anchored" data-anchor-id="hyperparameter-tuning">Hyperparameter tuning</h4>
+<p>To tune the <span class="math inline">\(K\)</span> neighbors hypermarameter, the training set was cross validated using five folds, stratified by the response variable (ppmv ozone). <span class="math inline">\(K=3\)</span> was chosen based on best mean RMSE.</p>
 </section>
-<section id="american-samoa-station-chief" class="level4">
-<h4 class="anchored" data-anchor-id="american-samoa-station-chief">American Samoa Station Chief</h4>
-<p>Global Monitoring Laboratory, National Oceanic and Atmospheric Administration (NOAA) <span style="float: right;">2020 - 2021</span></p>
-<ul>
-<li>Learned best mechanical and electrical practices for servicing sophisticated instrument systems while in training at NOAA headquarters in Boulder, Colorado.</li>
-<li>While on-station in American Samoa, a remote Pacific island, I increased data quality and output through excellent management of two locally-based staff.</li>
-</ul>
-</section>
-<section id="junior-bridge-watch-officer" class="level4">
-<h4 class="anchored" data-anchor-id="junior-bridge-watch-officer">Junior bridge watch officer</h4>
-<p>NOAA Ship Fairweather, Ketchikan, Alaska <span style="float: right;">2017 - 2020</span></p>
-<ul>
-<li>Led navigational watches aboard 230-ft hydrographic survey vessel.</li>
-<li>Valued member of ship’s command due to breadth of qualifications:
-<ul>
-<li>Primary voyage planner for coastal passages from San Diego to the Arctic.</li>
-<li>Coxswain of 28-ft small boats.</li>
-<li>Multibeam sonar operator.</li>
-</ul></li>
-</ul>
+<section id="test-error" class="level4">
+<h4 class="anchored" data-anchor-id="test-error">Test error</h4>
+<p>The test error of the fitted model was X (+ other metrics?).</p>
 </section>
 </section>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Recreated plot</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Original plot</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="notebook_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ozmix2022.png" class="img-fluid figure-img"></p>
+<figcaption>ozone 2022</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
 </section>
-<section id="education" class="level2">
-<h2 class="anchored" data-anchor-id="education">Education</h2>
-<section id="m.s.-marine-science" class="level3">
-<h3 class="anchored" data-anchor-id="m.s.-marine-science">M.S. Marine Science</h3>
-<p>Estuary and Ocean Science Center, San Francisco State University <span style="float: right;">2022-2024</span></p>
-<ul>
-<li>For thesis research, developed machine learning models to classify dolphin species in passive acoustic recordings.</li>
-<li>Used operational expertise to assist with projects outside my primary research area:
-<ul>
-<li>Deployed scientific moorings offshore central California.</li>
-<li>Piloted UAV in San Francisco Bay to test new vessel tracking software.</li>
-<li>Trailered and coxswained 19-ft boat with two crew sampling zooplankton in San Francisco Estuary.</li>
-</ul></li>
-</ul>
+<section id="discussion" class="level2">
+<h2 class="anchored" data-anchor-id="discussion">Discussion</h2>
+<p>The recreated figure seems to emulate several of the key features of the intended result well. It shows the hole clearly and in particular, the “core” of the maximally degraded area between September - November. Many of the other small scale features from the original image can be found in the reproduction.</p>
+<p>The reproduction does however have a “grainier” appearance than the original. In places where there are fewer profiles, the pixelation or grainy effect is more pronounced.</p>
+<p>For future improvements… ?? Do what?</p>
 </section>
-<section id="b.a.-geology" class="level3">
-<h3 class="anchored" data-anchor-id="b.a.-geology">B.A. Geology</h3>
-<p>Carleton College, Northfield, MN, USA <span style="float: right;">2011-2015</span></p>
+<section id="acknowledgements" class="level2">
+<h2 class="anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
 </section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<p>Read more about the fascinating science behind the formation of the ozone hole <a href="https://gml.noaa.gov/dv/spo_oz/">here.</a></p>
+<p>Read more about the pollutants that cause the ozone hole – and the global effort to reduce them in order to reverse the destruction of the ozone layer – <a href="https://gml.noaa.gov/hats/about/cfc.html">here.</a></p>
+<p>For detailed instructions on how to prepare and launch an ozonesonde, <a href="https://patrickcullis.com/ozonesonde-instructions.html">check out the manual and videos given by Patrick Cullis.</a></p>
 </section>
-<section id="awards" class="level2">
-<h2 class="anchored" data-anchor-id="awards">Awards</h2>
-<p><strong>NOAA Corps Achievement Medal (2019 and 2021)</strong></p>
-<p>Awarded on two occasions by different supervisors for notably positive impact on research operations – aboard NOAA Ship Fairweather as well as at the NOAA atmospheric observatory in American Samoa.</p>
-<p><strong>Distinction in Geology (2015)</strong></p>
-<p>Awarded by the Carleton College Geology faculty for an exceptional oral presentation of my senior thesis project.</p>
-</section>
-<section id="training-and-qualifications" class="level2">
-<h2 class="anchored" data-anchor-id="training-and-qualifications">Training and Qualifications</h2>
-<p>FAA UAV Remote Pilot (issued 2023)</p>
-<p>USCG Master 100 Ton Inland (issued 2023, expires 2028)</p>
-<p>Motor Boat Operator (2022) Scientific Boating Safety Association</p>
-<p>NOAA Ship Fairweather: Officer of the deck, small boat coxswain, hydrographer-in-charge (2018-2019)</p>
 
-
-</section>
-
-</main> <!-- /main -->
+</main>
+<!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -660,19 +636,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">
-<p>Copyright 2024, Jackson Vanfleet-Brown. All rights reserved.</p>
-</div>
-    <div class="nav-footer-right">
-      &nbsp;
-    </div>
-  </div>
-</footer>
 
 
 

@@ -8,10 +8,10 @@ website:
     left: 
       - text: Experience
         href: cv.qmd
-      - text: Past work
-        href: graphics.qmd
+      - text: Portfolio
+        href: portfolio.qmd
       - text: Posts
-        href: writing.qmd
+        href: posts.qmd
     right:
       - icon: github
         href: https://github.com/jackvfb

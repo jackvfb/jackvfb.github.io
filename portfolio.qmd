@@ -1,11 +1,14 @@
 ---
-title: "Visual and graphic design portfolio"
+title: "Data analysis portfolio"
 listing:
-  contents: graphics
+  contents:
+    - portfolio
+    - archived-items.yaml
   sort: "date desc"
   type: grid
-  fields: [image, date, title]
-  image-height: 200px
+  fields: [title, date, author, description, image, categories]
+  image-height: 250px
+  categories: true
 page-layout: full
 toc: false
 title-block-banner: true

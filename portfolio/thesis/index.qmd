@@ -1,8 +1,10 @@
 ---
-title: "Introduction to my thesis project"
-author: Jackson Vanfleet-Brown
+title: "Classifying cetacean species in marine acoustic recordings"
+subtitle: "A random forest classified closely related cetacean species using acoustic features of echolocation clicks"
+description: "An overview of my master's thesis on passive acoustic monitoring of cetaceans in the California current."
+author: "Jackson Vanfleet-Brown"
 date: "2024-02-25"
-categories: [intro]
+categories: [classification, random forest]
 image: thumbnail.jpg
 bibliography: references.bib
 ---

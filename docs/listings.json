@@ -11,5 +11,17 @@
       "/graphics/background/index.html",
       "/graphics/fara50/index.html"
     ]
+  },
+  {
+    "listing": "/portfolio.html",
+    "items": [
+      "/portfolio/thesis/index.html"
+    ]
+  },
+  {
+    "listing": "/posts.html",
+    "items": [
+      "/writing/posts/bootcamp.html"
+    ]
   }
 ]
