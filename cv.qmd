@@ -3,7 +3,9 @@ title: "Jackson Vanfleet-Brown - CV"
 toc-depth: 2
 ---
 
-I am a new student with an interest in data science. I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.I am a new student with an interest in data science.
+- Transdisciplinary research technician specializing in field operations.
+- Bridge watch officer and seagoing research technician specializing in acoustics.
+- Computational researcher specializing in oceans and atmosphere big data.- Field technician, professional mariner
 
 
 ## Experience

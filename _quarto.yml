@@ -9,7 +9,11 @@ website:
       - text: Experience
         href: cv.qmd
       - text: Portfolio
-        href: portfolio.qmd
+        menu:
+          - text: Data Science
+            href: portfolio.qmd
+          - text: Page 2
+            href: page2.qmd
       - text: Posts
         href: posts.qmd
     right:

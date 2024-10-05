@@ -19,6 +19,6 @@ I have a transdisciplinary research background rich with experience in leading o
 
 My experience includes success in [operational leadership roles](cv.qmd), as a navigation officer aboard a hydrographic survey ship, and as the chief of an atmospheric observatory.
 
-And I also have a graduate level education in the natural sciences honing my [data analysis and communicating results](graphics.qmd). I am currently most enthusiastic about using open source tools like R, Quarto, and GitHub to interface with the global research community, publish the results, and propel forward driven by the boost of AI.
+And I also have a graduate level education in the natural sciences honing my [data analysis and communicating results](portfolio.qmd). I am currently most enthusiastic about using open source tools like R, Quarto, and GitHub to interface with the global research community, publish the results, and propel forward driven by the boost of AI.
 
 Thanks for visiting! 👋

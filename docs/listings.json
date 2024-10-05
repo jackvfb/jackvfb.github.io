@@ -1,18 +1,5 @@
 [
   {
-    "listing": "/writing.html",
-    "items": [
-      "/writing/bootcamp/bootcamp.html"
-    ]
-  },
-  {
-    "listing": "/graphics.html",
-    "items": [
-      "/graphics/background/index.html",
-      "/graphics/fara50/index.html"
-    ]
-  },
-  {
     "listing": "/portfolio.html",
     "items": [
       "/portfolio/thesis/index.html"
